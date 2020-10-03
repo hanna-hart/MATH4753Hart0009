@@ -1,3 +1,4 @@
+
 myncurve = function(mu, sigma, p1, p2){
 
   mu = mu
