@@ -1,4 +1,15 @@
 
+#' Title
+#'
+#' @param mu
+#' @param sigma
+#' @param p1
+#' @param p2
+#'
+#' @return
+#' @export
+#'
+#' @examples
 myncurve = function(mu, sigma, p1, p2){
 
   mu = mu
