@@ -2,5 +2,6 @@
 
 export(bmi3)
 export(myboot2)
+export(mymlnorm)
 export(myncurve)
 export(myplot)
