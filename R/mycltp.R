@@ -1,3 +1,14 @@
+#' myctlp
+#'
+#' @param n
+#' @param iter
+#' @param lambda
+#' @param ...
+#'
+#' @return returns histogram of the density function, barplot of relative frequency, and a barplot of probability
+#' @export
+#'
+#' @examples myctlp(n = 10, iter = 100000, lambda = 10)
 mycltp=function(n,iter,lambda=10,...){
 
   ## r-random sample from the Poisson
@@ -37,3 +48,4 @@ mycltp=function(n,iter,lambda=10,...){
   plot(x,dpois(x,lambda=lambda),type="h",lwd=5,col=rainbow(max(y)),
        main="Probability function for Poisson", ylab="Probability",xlab="y")
 }
+
