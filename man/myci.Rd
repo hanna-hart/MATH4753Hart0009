@@ -10,8 +10,11 @@ myci(iter = 10000, x1, x2, fun = "mean", alpha = 0.05, ...)
 \item{...}{}
 }
 \value{
-
+returns a histogram with the confidence interval of the samples the user passes through
 }
 \description{
 myci
+}
+\examples{
+ myci(x1 = c(1,2,3,4), x2 = c(5,6,7,8))
 }

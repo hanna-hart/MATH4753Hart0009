@@ -10,8 +10,11 @@ myboot2(iter = 10000, x, fun = "mean", alpha = 0.05, cx = 1.5, ...)
 \item{...}{}
 }
 \value{
-
+Plots the point estimate for a density function the user specifies.
 }
 \description{
 myboot2
+}
+\examples{
+myboot2(iter = 1000000, fun = "mean", alpha = 0.1)
 }
