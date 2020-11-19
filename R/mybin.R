@@ -1,3 +1,13 @@
+#' mybin
+#'
+#' @param iter
+#' @param n
+#' @param p
+#'
+#' @return barplot based on parameters passed in
+#' @export
+#'
+#' @examples mybin(iter = 1000, n = 50, p =0.2)
 mybin = function(iter=1000,n=10, p=0.5){
   # make a matrix to hold the samples
   #initially filled with NA's
